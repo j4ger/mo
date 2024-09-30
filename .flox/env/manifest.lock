@@ -1,0 +1,2378 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "alsa-lib": {
+        "pkg-path": "alsa-lib",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
+      "cargo": {
+        "pkg-path": "cargo",
+        "pkg-group": "rust-toolchain"
+      },
+      "clang": {
+        "pkg-path": "clang",
+        "systems": [
+          "aarch64-darwin",
+          "x86_64-darwin"
+        ]
+      },
+      "clippy": {
+        "pkg-path": "clippy",
+        "pkg-group": "rust-toolchain"
+      },
+      "gcc": {
+        "pkg-path": "gcc",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
+      "libGL": {
+        "pkg-path": "libGL"
+      },
+      "libX11": {
+        "pkg-path": "xorg.libX11"
+      },
+      "libXcursor": {
+        "pkg-path": "xorg.libXcursor"
+      },
+      "libXi": {
+        "pkg-path": "xorg.libXi"
+      },
+      "libXrandr": {
+        "pkg-path": "xorg.libXrandr"
+      },
+      "libiconv": {
+        "pkg-path": "libiconv",
+        "systems": [
+          "aarch64-darwin",
+          "x86_64-darwin"
+        ]
+      },
+      "libxkbcommon": {
+        "pkg-path": "libxkbcommon"
+      },
+      "rust-analyzer": {
+        "pkg-path": "rust-analyzer",
+        "pkg-group": "rust-analyzer"
+      },
+      "rust-lib-src": {
+        "pkg-path": "rustPlatform.rustLibSrc",
+        "pkg-group": "rust-toolchain"
+      },
+      "rustc": {
+        "pkg-path": "rustc",
+        "pkg-group": "rust-toolchain"
+      },
+      "rustfmt": {
+        "pkg-path": "rustfmt",
+        "pkg-group": "rust-toolchain"
+      },
+      "vulkan-extension-layer": {
+        "pkg-path": "vulkan-extension-layer",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
+      "vulkan-headers": {
+        "pkg-path": "vulkan-headers"
+      },
+      "vulkan-loader": {
+        "pkg-path": "vulkan-loader"
+      },
+      "vulkan-tools": {
+        "pkg-path": "vulkan-tools"
+      },
+      "vulkan-validation-layers": {
+        "pkg-path": "vulkan-validation-layers",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
+      "wayland": {
+        "pkg-path": "wayland"
+      }
+    },
+    "hook": {
+      "on-activate": "  export PATH=\"$PWD/target/debug:$PATH\"\n"
+    },
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "x86_64-darwin",
+        "aarch64-linux",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "rust-analyzer",
+      "broken": false,
+      "derivation": "/nix/store/1svli3cciblkp2mkyygb8ngwzkl3bk1x-rust-analyzer-2024-09-02.drv",
+      "description": "Modular compiler frontend for the Rust language",
+      "install_id": "rust-analyzer",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-analyzer-2024-09-02",
+      "pname": "rust-analyzer",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024-09-02",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1l1ynbsf6rrb87slz1m0d31dbyxkzjay-rust-analyzer-2024-09-02"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-analyzer",
+      "priority": 5
+    },
+    {
+      "attr_path": "rust-analyzer",
+      "broken": false,
+      "derivation": "/nix/store/a35g6qpcw45v51xxzy6hq2cdcj76yhn6-rust-analyzer-2024-09-02.drv",
+      "description": "Modular compiler frontend for the Rust language",
+      "install_id": "rust-analyzer",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-analyzer-2024-09-02",
+      "pname": "rust-analyzer",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024-09-02",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hlvry3d9gmv5lhsbh2yppf6jdm59jflk-rust-analyzer-2024-09-02"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-analyzer",
+      "priority": 5
+    },
+    {
+      "attr_path": "rust-analyzer",
+      "broken": false,
+      "derivation": "/nix/store/cf2yr3z82vbs8nbr10hsrqp3l5a460j5-rust-analyzer-2024-09-02.drv",
+      "description": "Modular compiler frontend for the Rust language",
+      "install_id": "rust-analyzer",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-analyzer-2024-09-02",
+      "pname": "rust-analyzer",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024-09-02",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nl61nymakzyrvgc971a3nyl9wgs30vij-rust-analyzer-2024-09-02"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-analyzer",
+      "priority": 5
+    },
+    {
+      "attr_path": "rust-analyzer",
+      "broken": false,
+      "derivation": "/nix/store/8mynxiwvav3zd21vf5f0ph2mr11bj1z5-rust-analyzer-2024-09-02.drv",
+      "description": "Modular compiler frontend for the Rust language",
+      "install_id": "rust-analyzer",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-analyzer-2024-09-02",
+      "pname": "rust-analyzer",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024-09-02",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0fdrbfqza9p1vwzccy1hb1pdbx55hags-rust-analyzer-2024-09-02"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-analyzer",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/a6j07nsrmnqhv0mm2bbnvnjcfkv3bxpz-cargo-1.80.1.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "cargo-1.80.1",
+      "pname": "cargo",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/idfq37bavykpfahg0q8cpawj90sckagq-cargo-1.80.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/lw8a7gvkhkjfwfccpyy0p2i2kq1bq5qk-cargo-1.80.1.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "cargo-1.80.1",
+      "pname": "cargo",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/rc3niv9fvii3lc862h81qbqca89yagg9-cargo-1.80.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/piqkpmwr5m4bn8p0d0j8q94y0bb7yfkw-cargo-1.80.1.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "cargo-1.80.1",
+      "pname": "cargo",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hgycsvahrwxwkq56zj5by28pxwx9sfqh-cargo-1.80.1"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/gjrrcbbsmjq4dp6gfrss50l6zm628qpw-cargo-1.80.1.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "cargo-1.80.1",
+      "pname": "cargo",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/c0r47wb8xm1dbsvppw6gh75jfjakal1y-cargo-1.80.1"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "clippy",
+      "broken": false,
+      "derivation": "/nix/store/4bh8wbqf05jvl888ls2395iq2w5yksq1-clippy-1.80.1.drv",
+      "description": "Bunch of lints to catch common mistakes and improve your Rust code",
+      "install_id": "clippy",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "clippy-1.80.1",
+      "pname": "clippy",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/aswyg8bfc3y5nzv6asaz6xlr5b79vvr6-clippy-1.80.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "clippy",
+      "broken": false,
+      "derivation": "/nix/store/3a0yk18a8h7cqvca1mzma1fc97vz7f6a-clippy-1.80.1.drv",
+      "description": "Bunch of lints to catch common mistakes and improve your Rust code",
+      "install_id": "clippy",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "clippy-1.80.1",
+      "pname": "clippy",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/2qw6a3ay1da4c2l2rcalqi35n27my591-clippy-1.80.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "clippy",
+      "broken": false,
+      "derivation": "/nix/store/hf78d32s4l9ynzigdyfsqimp58s00d42-clippy-1.80.1.drv",
+      "description": "Bunch of lints to catch common mistakes and improve your Rust code",
+      "install_id": "clippy",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "clippy-1.80.1",
+      "pname": "clippy",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/xlmkc4xzv3wjbr00vgwxy3k6d1k5hqa5-clippy-1.80.1-debug",
+        "out": "/nix/store/1dh3cz88wnf12i8cylllgn8j7m0z2j7i-clippy-1.80.1"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "clippy",
+      "broken": false,
+      "derivation": "/nix/store/avz5cyyj22cz4dc53bx4p8mfrx6frzj9-clippy-1.80.1.drv",
+      "description": "Bunch of lints to catch common mistakes and improve your Rust code",
+      "install_id": "clippy",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "clippy-1.80.1",
+      "pname": "clippy",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/zfbf9qngj05s22fbg8dbcarjgzn9hff0-clippy-1.80.1-debug",
+        "out": "/nix/store/6pblw8l1ipgj2g1jvd7grhs1cnpqp9vm-clippy-1.80.1"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustPlatform.rustLibSrc",
+      "broken": false,
+      "derivation": "/nix/store/za8qn1akdaglwdm4sv2ndnsa92hy54j7-rust-lib-src.drv",
+      "install_id": "rust-lib-src",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-lib-src",
+      "pname": "rustLibSrc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "rust-lib-src",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9mwdk449lws263ykk01xrbywpdzqmgh3-rust-lib-src"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustPlatform.rustLibSrc",
+      "broken": false,
+      "derivation": "/nix/store/7g5crphsvw21gbwm5ij3b5pbhx0i0m8j-rust-lib-src.drv",
+      "install_id": "rust-lib-src",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-lib-src",
+      "pname": "rustLibSrc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "rust-lib-src",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p84mx4ksfzlvpi12rcxhsaihy0pkynxs-rust-lib-src"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustPlatform.rustLibSrc",
+      "broken": false,
+      "derivation": "/nix/store/nin524xcp0l7xzw4ccbgpzxsncf5y447-rust-lib-src.drv",
+      "install_id": "rust-lib-src",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-lib-src",
+      "pname": "rustLibSrc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "rust-lib-src",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/b2kn9wlf1bhz2kry46d1xv0ir402vfrw-rust-lib-src"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustPlatform.rustLibSrc",
+      "broken": false,
+      "derivation": "/nix/store/4ix01cdzxqcpk452lndkw3d3pib10d4w-rust-lib-src.drv",
+      "install_id": "rust-lib-src",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rust-lib-src",
+      "pname": "rustLibSrc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "rust-lib-src",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5dh2vfghjizfwgci0z00hbrpx5vwv6zc-rust-lib-src"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustc",
+      "broken": false,
+      "derivation": "/nix/store/sw1xd1imm58b2bq23fasx7jk9yfalw40-rustc-wrapper-1.80.1.drv",
+      "description": "Safe, concurrent, practical language (wrapper script)",
+      "install_id": "rustc",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustc-wrapper-1.80.1",
+      "pname": "rustc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-1.80.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/pwm2c3c2msxiy78ms1g1syqcf4zjwidx-rustc-wrapper-1.80.1-doc",
+        "man": "/nix/store/7irfsbn1g91hn132755l5nr0sajrip7v-rustc-wrapper-1.80.1-man",
+        "out": "/nix/store/3gggf0knmsc6srxq89gm424rffwma6rv-rustc-wrapper-1.80.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustc",
+      "broken": false,
+      "derivation": "/nix/store/w4n4a5cvwygrnqfn889s6f1ndsjxbs10-rustc-wrapper-1.80.1.drv",
+      "description": "Safe, concurrent, practical language (wrapper script)",
+      "install_id": "rustc",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustc-wrapper-1.80.1",
+      "pname": "rustc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-1.80.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/0b1mwhz7l71wdwxf925q4k8cvmcpx3aq-rustc-wrapper-1.80.1-doc",
+        "man": "/nix/store/nysgy2cz1bsjixn7igrzglj9s1bh0cfn-rustc-wrapper-1.80.1-man",
+        "out": "/nix/store/hl60dz242vrknfd15i984xwmzjm36z1b-rustc-wrapper-1.80.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustc",
+      "broken": false,
+      "derivation": "/nix/store/fs6xy3p7x30l7yx7q8q1cjrdswry8sy9-rustc-wrapper-1.80.1.drv",
+      "description": "Safe, concurrent, practical language (wrapper script)",
+      "install_id": "rustc",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustc-wrapper-1.80.1",
+      "pname": "rustc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-1.80.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ycyqn2r84lmhkd0vf605nz28ngb6qbbm-rustc-wrapper-1.80.1-doc",
+        "man": "/nix/store/4d1nnd97sdqy7rvndqb9jzcni6q8ibc9-rustc-wrapper-1.80.1-man",
+        "out": "/nix/store/1b35qfalqp7jdwhd2642cki5b29mlg9w-rustc-wrapper-1.80.1"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustc",
+      "broken": false,
+      "derivation": "/nix/store/m5g06mxcks61p06zn7fr5yi822v99x3q-rustc-wrapper-1.80.1.drv",
+      "description": "Safe, concurrent, practical language (wrapper script)",
+      "install_id": "rustc",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustc-wrapper-1.80.1",
+      "pname": "rustc",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-1.80.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/iyl50h2sik10vb40kiipiavzlgrrks04-rustc-wrapper-1.80.1-doc",
+        "man": "/nix/store/6ijm3z013cgcwjs60g5sjmd8i8nscq10-rustc-wrapper-1.80.1-man",
+        "out": "/nix/store/n4nnqpcaxk621i8lwr86116fv5kfy3jl-rustc-wrapper-1.80.1"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustfmt",
+      "broken": false,
+      "derivation": "/nix/store/cqa5g8hhr7l15gzymwb5gdkiq4ixwygy-rustfmt-1.80.1.drv",
+      "description": "Tool for formatting Rust code according to style guidelines",
+      "install_id": "rustfmt",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustfmt-1.80.1",
+      "pname": "rustfmt",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p2xnaif204agqsmdlgmkypbhlk3isnx8-rustfmt-1.80.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustfmt",
+      "broken": false,
+      "derivation": "/nix/store/nandqymhz263w22xyrlf83k7njjnpg6f-rustfmt-1.80.1.drv",
+      "description": "Tool for formatting Rust code according to style guidelines",
+      "install_id": "rustfmt",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustfmt-1.80.1",
+      "pname": "rustfmt",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kh259aj4gv6xnnaa2ayi0q1qmsf98ck0-rustfmt-1.80.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustfmt",
+      "broken": false,
+      "derivation": "/nix/store/z4j918159p6jfssbf4ky03l0f6kx6bnf-rustfmt-1.80.1.drv",
+      "description": "Tool for formatting Rust code according to style guidelines",
+      "install_id": "rustfmt",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustfmt-1.80.1",
+      "pname": "rustfmt",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6pwc4hkrsk5pxsd38zcdyjzjcml3hlvh-rustfmt-1.80.1"
+      },
+      "system": "aarch64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "rustfmt",
+      "broken": false,
+      "derivation": "/nix/store/f5c8hrz13dx5rp6v0j0jnhqyvn9q0c1s-rustfmt-1.80.1.drv",
+      "description": "Tool for formatting Rust code according to style guidelines",
+      "install_id": "rustfmt",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "rustfmt-1.80.1",
+      "pname": "rustfmt",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mawqalpjhg4764l6rl8nygnzmmph3zbj-rustfmt-1.80.1"
+      },
+      "system": "x86_64-linux",
+      "group": "rust-toolchain",
+      "priority": 5
+    },
+    {
+      "attr_path": "alsa-lib",
+      "broken": false,
+      "derivation": "/nix/store/396ddq94cl0yy1xd1h5hg8yjm3vg0jbb-alsa-lib-1.2.11.drv",
+      "description": "ALSA, the Advanced Linux Sound Architecture libraries",
+      "install_id": "alsa-lib",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "alsa-lib-1.2.11",
+      "pname": "alsa-lib",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.11",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/kg5ipddnliliylrcvyi5c8vkxqmdyxlb-alsa-lib-1.2.11-dev",
+        "out": "/nix/store/pzvl21491d5m5p28ggm5l2brzcd3j2pk-alsa-lib-1.2.11"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "alsa-lib",
+      "broken": false,
+      "derivation": "/nix/store/8alw7d73vjk6r1apnkl8ksnnm8lmb2r0-alsa-lib-1.2.11.drv",
+      "description": "ALSA, the Advanced Linux Sound Architecture libraries",
+      "install_id": "alsa-lib",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "alsa-lib-1.2.11",
+      "pname": "alsa-lib",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.11",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/d3x96306x834zp2hp63j5zrj8d4nb8ln-alsa-lib-1.2.11-dev",
+        "out": "/nix/store/hh9gibhh5xd6i80vvs66aky3r3wkvyfj-alsa-lib-1.2.11"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "clang",
+      "broken": false,
+      "derivation": "/nix/store/kx00vfvblgv363bnm3azbspv6r55gifh-clang-wrapper-16.0.6.drv",
+      "description": "C language family frontend for LLVM (wrapper script)",
+      "install_id": "clang",
+      "license": "NCSA",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "clang-wrapper-16.0.6",
+      "pname": "clang",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-16.0.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8c3v3rdzvi5364x9m959ijyy6iamqf5f-clang-wrapper-16.0.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "clang",
+      "broken": false,
+      "derivation": "/nix/store/pickx0jr4ihayv84iqkns2zqhakwqm7h-clang-wrapper-16.0.6.drv",
+      "description": "C language family frontend for LLVM (wrapper script)",
+      "install_id": "clang",
+      "license": "NCSA",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "clang-wrapper-16.0.6",
+      "pname": "clang",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-16.0.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kk0zkxvj9k09ra65gg9pzd9mlzykbxps-clang-wrapper-16.0.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/jdkqf42vy69bcypd2m4x76xdrm57v8v3-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/7pf64k2wnzjczmbh66dj0b4s5h4f9xc5-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/h3qn3115d4qj3m6radi1yp3k0xpqrmsr-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/q1bas0gp3flgciliddhcwbz3ps1pdnb2-gcc-wrapper-13.3.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/xlg144qrggr7dik60cwj315d1cyaiqrd-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/325q6sb2v4w4azf9f0kv9040fawmbmq5-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/nfnxb85s44x712h6jmzl30jz3vragswr-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/zznja5f8v3jafffyah1rk46vpfcn38dv-gcc-wrapper-13.3.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libGL",
+      "broken": false,
+      "derivation": "/nix/store/s5kk9cxc1dg79kpbqa3r6ykrri6fwn3s-apple-framework-OpenGL-11.0.0.drv",
+      "description": "Apple SDK framework OpenGL",
+      "install_id": "libGL",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "apple-framework-OpenGL-11.0.0",
+      "pname": "libGL",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apple-framework-OpenGL-11.0.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cfsk4wrb6s78h0in2g1fs9i41vlsfv1z-apple-framework-OpenGL-11.0.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libGL",
+      "broken": false,
+      "derivation": "/nix/store/9cav004wf0lkjymcihz3w2dfl58mpzw9-apple-framework-OpenGL.drv",
+      "description": "Apple SDK framework OpenGL",
+      "install_id": "libGL",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "apple-framework-OpenGL",
+      "pname": "libGL",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apple-framework-OpenGL",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/fsri9cbp2j87c9vnai4xy73nkvg5wsiy-apple-framework-OpenGL"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libGL",
+      "broken": false,
+      "derivation": "/nix/store/2y1xmj4paalffrrcsr3dl8kahk4yya3g-libglvnd-1.7.0.drv",
+      "description": "GL Vendor-Neutral Dispatch library",
+      "install_id": "libGL",
+      "license": "[ MIT, BSD-1-Clause, BSD-3-Clause, GPL-3.0-only, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libglvnd-1.7.0",
+      "pname": "libGL",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "libglvnd-1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/knm44q1srs7pb36ywvjzqjv2yc4axkg9-libglvnd-1.7.0-dev",
+        "out": "/nix/store/9iyajndhn8k0x0c5lpljidzywcapj6hn-libglvnd-1.7.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libGL",
+      "broken": false,
+      "derivation": "/nix/store/j78zb67mh0mr72v363gnc98g54w336r7-libglvnd-1.7.0.drv",
+      "description": "GL Vendor-Neutral Dispatch library",
+      "install_id": "libGL",
+      "license": "[ MIT, BSD-1-Clause, BSD-3-Clause, GPL-3.0-only, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libglvnd-1.7.0",
+      "pname": "libGL",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "libglvnd-1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/0nifpiwvav0p4nh67w5vzy3xfdy2m50g-libglvnd-1.7.0-dev",
+        "out": "/nix/store/shvpkfqpaas60fakhw62hp3xgpfh4kdm-libglvnd-1.7.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libX11",
+      "broken": false,
+      "derivation": "/nix/store/rcvx6ypl2rif5il48aac6rrp3ws8hp9a-libX11-1.8.10.drv",
+      "install_id": "libX11",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libX11-1.8.10",
+      "pname": "libX11",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.10",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/nw9jw86s777hd77lmg2z7cy6j4czbd1r-libX11-1.8.10-dev",
+        "man": "/nix/store/3rs3fr8db2vs0vlkvfx0xkmx82fph883-libX11-1.8.10-man",
+        "out": "/nix/store/2ai21jj1sdbdmhd33li9wl8y9nhmch3y-libX11-1.8.10"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libX11",
+      "broken": false,
+      "derivation": "/nix/store/qndb8y4i3ysi5x31i2844pdxfdy24wiw-libX11-1.8.10.drv",
+      "install_id": "libX11",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libX11-1.8.10",
+      "pname": "libX11",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.10",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/4kjviyi1f16sl4jmwjrrsn0dmjhjdfnf-libX11-1.8.10-dev",
+        "man": "/nix/store/ccb17by6jlim5vcsjr3hiy7x77x800xy-libX11-1.8.10-man",
+        "out": "/nix/store/s3d0frrp157n4zm1sx9van2c9aj4m54i-libX11-1.8.10"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libX11",
+      "broken": false,
+      "derivation": "/nix/store/k8wzd8cg0bm4scilm1pzif6q6llyknp7-libX11-1.8.10.drv",
+      "install_id": "libX11",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libX11-1.8.10",
+      "pname": "libX11",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.10",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/qspp7v4j454ws6zayp9fkhqbbw46vbr0-libX11-1.8.10-dev",
+        "man": "/nix/store/dnxsxdncfljqpd2qs1x5a670ndfy68yr-libX11-1.8.10-man",
+        "out": "/nix/store/7adz67dhildqdsm27273fvklw5a21lf4-libX11-1.8.10"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libX11",
+      "broken": false,
+      "derivation": "/nix/store/rims89nlgaxnvz2qp4fjj06f57wgwlzb-libX11-1.8.10.drv",
+      "install_id": "libX11",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libX11-1.8.10",
+      "pname": "libX11",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.10",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/9rcc4vw6140z5s306jmppnfcys5782mk-libX11-1.8.10-dev",
+        "man": "/nix/store/f6xckxx2rybmzc4g9rbfrgkgkxsvpfsh-libX11-1.8.10-man",
+        "out": "/nix/store/llfrkl8va8kv49q0ymqwx04apa52mck3-libX11-1.8.10"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXcursor",
+      "broken": false,
+      "derivation": "/nix/store/jw1100bp0zws9d2nxvsyd2drmvsppiyp-libXcursor-1.2.2.drv",
+      "install_id": "libXcursor",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXcursor-1.2.2",
+      "pname": "libXcursor",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/7d9ls7qgsd5brllmsjm02vcw9s380ikh-libXcursor-1.2.2-dev",
+        "out": "/nix/store/j78mik3x8m2zaf4rwrannslhcmw3hl97-libXcursor-1.2.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXcursor",
+      "broken": false,
+      "derivation": "/nix/store/v6xnjqwm06axkxmk4qjmmz5mzqvlbfjm-libXcursor-1.2.2.drv",
+      "install_id": "libXcursor",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXcursor-1.2.2",
+      "pname": "libXcursor",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/vk570byrb4rpfig7ccxp5mw3jrv19yjz-libXcursor-1.2.2-dev",
+        "out": "/nix/store/bkmjsfy2ws1n5px9qsjivbdka7dh7jab-libXcursor-1.2.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXcursor",
+      "broken": false,
+      "derivation": "/nix/store/dl3ypkvp9ywf1ivjq4q5pqbpjlyvivzp-libXcursor-1.2.2.drv",
+      "install_id": "libXcursor",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXcursor-1.2.2",
+      "pname": "libXcursor",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/qjcvbqmcyjjm12szp87lix60vsg3z7ds-libXcursor-1.2.2-dev",
+        "out": "/nix/store/gi84vpjf8ssgdy5f541ndklf7d1lvs01-libXcursor-1.2.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXcursor",
+      "broken": false,
+      "derivation": "/nix/store/zvn3p09ng8nb69fn5i2vxj0q4xp1ms7p-libXcursor-1.2.2.drv",
+      "install_id": "libXcursor",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXcursor-1.2.2",
+      "pname": "libXcursor",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/dxmbbk2xysf2lvbxdcnz94n36hf6b34n-libXcursor-1.2.2-dev",
+        "out": "/nix/store/gwi3zswlzkkw5n8s70dpgiqlxsmvax8n-libXcursor-1.2.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXi",
+      "broken": false,
+      "derivation": "/nix/store/4b0819zygza8iyqg8gxkx3rify3mzhhw-libXi-1.8.1.drv",
+      "install_id": "libXi",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXi-1.8.1",
+      "pname": "libXi",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/pyxdzkw617rq89sf8ginl310p42ln7a1-libXi-1.8.1-dev",
+        "doc": "/nix/store/hmysnkk591ymb47263cp8qgjr82d173k-libXi-1.8.1-doc",
+        "man": "/nix/store/y9kf9v81bdwfqg7rwxrlp38yyx5kwrwj-libXi-1.8.1-man",
+        "out": "/nix/store/b7b1ahdsfxv0wd8b4z3qwvnm9q6q3ryf-libXi-1.8.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXi",
+      "broken": false,
+      "derivation": "/nix/store/49l4pvhg92f8wbsj6lyd2nik2vgvsqv5-libXi-1.8.1.drv",
+      "install_id": "libXi",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXi-1.8.1",
+      "pname": "libXi",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/z1ywg9bgjjjzylqpawswgma6wp7krl4d-libXi-1.8.1-dev",
+        "doc": "/nix/store/nd1gpdyq8j8zzl48p35wc3b0m09rlk37-libXi-1.8.1-doc",
+        "man": "/nix/store/w8fz40cxv02d0dz9c3pjdf6mss9n7fmv-libXi-1.8.1-man",
+        "out": "/nix/store/z1x0fp2izfwm4nxhq4a9p5hvgnf71kps-libXi-1.8.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXi",
+      "broken": false,
+      "derivation": "/nix/store/fi3fpdy6h20apg1dqgmz4b3y09sqv63r-libXi-1.8.1.drv",
+      "install_id": "libXi",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXi-1.8.1",
+      "pname": "libXi",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/a4023p72qk982nykzxs6ff5hlvaw2k3h-libXi-1.8.1-dev",
+        "doc": "/nix/store/4zpc3y29nhsk6izqy4vqk7cfiwdn7fr0-libXi-1.8.1-doc",
+        "man": "/nix/store/zci452fdhj119czhcs99ahvr3z5pxsqy-libXi-1.8.1-man",
+        "out": "/nix/store/bgl6yjqx7rp1zwkmcizafd3z0c81rkbl-libXi-1.8.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXi",
+      "broken": false,
+      "derivation": "/nix/store/nqcjrl5gsd7fw1vf6pa21vh3zrpap91d-libXi-1.8.1.drv",
+      "install_id": "libXi",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXi-1.8.1",
+      "pname": "libXi",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.8.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/v32b1szcw2wc3czrhrzs804299gj331d-libXi-1.8.1-dev",
+        "doc": "/nix/store/bxkiy32h0ycww5xkl0bvb3jm3wz62asi-libXi-1.8.1-doc",
+        "man": "/nix/store/vfqnb6kf9r2ybgjdsxy6x4ahz4ihv8g2-libXi-1.8.1-man",
+        "out": "/nix/store/0rx8lxacsngrr45fhgrvrvrs8x0b1lng-libXi-1.8.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXrandr",
+      "broken": false,
+      "derivation": "/nix/store/xppqi57bb3qmq209w7d35s7a3k7wdzgk-libXrandr-1.5.4.drv",
+      "install_id": "libXrandr",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXrandr-1.5.4",
+      "pname": "libXrandr",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/096h3y5qvnk79bq9nyx1c5w7jq79810z-libXrandr-1.5.4-dev",
+        "out": "/nix/store/nzxr7w87nm10mf0mimlvjl4xr6lq2s1k-libXrandr-1.5.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXrandr",
+      "broken": false,
+      "derivation": "/nix/store/710062xrjrbn3cf0q55xv1w6f9bmmqlv-libXrandr-1.5.4.drv",
+      "install_id": "libXrandr",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXrandr-1.5.4",
+      "pname": "libXrandr",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/xncpjnkqw1h0viiz7mfphmfs4n1m2jdf-libXrandr-1.5.4-dev",
+        "out": "/nix/store/nj42vlhb9qchhwi70rcpsh97k517qvr0-libXrandr-1.5.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXrandr",
+      "broken": false,
+      "derivation": "/nix/store/fn4nninkq03l53vgnc2hsgbmxa5kf0z7-libXrandr-1.5.4.drv",
+      "install_id": "libXrandr",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXrandr-1.5.4",
+      "pname": "libXrandr",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/32kxja3zvapjxv21jf2h8w9nb2pqlbyf-libXrandr-1.5.4-dev",
+        "out": "/nix/store/d8pcbad8w3ykn6jvxy2xzjj04796r56k-libXrandr-1.5.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "xorg.libXrandr",
+      "broken": false,
+      "derivation": "/nix/store/77zz0g7r9wg8knls7iw4cg1aczhqszw1-libXrandr-1.5.4.drv",
+      "install_id": "libXrandr",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libXrandr-1.5.4",
+      "pname": "libXrandr",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/04qv3aigcfkl6i52wdk5mwcya1xifsbz-libXrandr-1.5.4-dev",
+        "out": "/nix/store/qgv3ji2ahl80jkq69vkk6j6j2fhpiha4-libXrandr-1.5.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libiconv",
+      "broken": false,
+      "derivation": "/nix/store/5g94mlh38xmfwq5wpik66jsaw1g026ss-libiconv-99.drv",
+      "description": "Iconv(3) implementation",
+      "install_id": "libiconv",
+      "license": "[ BSD-2-Clause, BSD-3-Clause, APSL-1.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libiconv-99",
+      "pname": "libiconv",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "99",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/r2jkk7lsmi17m5lp3r7aip9626n07qfz-libiconv-99-dev",
+        "out": "/nix/store/cjzmz9dskblgkbv4by2wnsyvdjw6jpcm-libiconv-99"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libiconv",
+      "broken": false,
+      "derivation": "/nix/store/6h8yar9cd61pbnlrwwmg6pniixl7xf5l-libiconv-99.drv",
+      "description": "Iconv(3) implementation",
+      "install_id": "libiconv",
+      "license": "[ BSD-2-Clause, BSD-3-Clause, APSL-1.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libiconv-99",
+      "pname": "libiconv",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "99",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/iqgcmki7xk4v9fzk67wm63fwjby97cln-libiconv-99-dev",
+        "out": "/nix/store/byx7hpi5hblzk8hpfd5pg2v7a63m5j15-libiconv-99"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxkbcommon",
+      "broken": false,
+      "derivation": "/nix/store/s536ghzygcb3icbsj91pa0p13i61g05n-libxkbcommon-1.7.0.drv",
+      "description": "Library to handle keyboard descriptions",
+      "install_id": "libxkbcommon",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libxkbcommon-1.7.0",
+      "pname": "libxkbcommon",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/341j3gri77d5b3n3i2qfiqk231w0jrpj-libxkbcommon-1.7.0-dev",
+        "doc": "/nix/store/kl2x9g5zwsjz1i8xvx7761k0h2gf585f-libxkbcommon-1.7.0-doc",
+        "out": "/nix/store/8h6ir97jh81f5p39zpawkzmxzcd6hqn8-libxkbcommon-1.7.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxkbcommon",
+      "broken": false,
+      "derivation": "/nix/store/b5h9k9xja03sp6zh0462gw6k51g301zy-libxkbcommon-1.7.0.drv",
+      "description": "Library to handle keyboard descriptions",
+      "install_id": "libxkbcommon",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libxkbcommon-1.7.0",
+      "pname": "libxkbcommon",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/gr8kxqrgvajx66n3p0pqymf2mji60kxy-libxkbcommon-1.7.0-dev",
+        "doc": "/nix/store/mk44x7mlhdda736gch0ds1rva2r7kh26-libxkbcommon-1.7.0-doc",
+        "out": "/nix/store/xc8bv7pipmfxmr4l7458p73v89a4xja7-libxkbcommon-1.7.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxkbcommon",
+      "broken": false,
+      "derivation": "/nix/store/z7xmj3a74a3k8fq43i6h8bz1k4hsxwcj-libxkbcommon-1.7.0.drv",
+      "description": "Library to handle keyboard descriptions",
+      "install_id": "libxkbcommon",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libxkbcommon-1.7.0",
+      "pname": "libxkbcommon",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/6sngxwqwzvi8kl69iyy19svy9p0yflrx-libxkbcommon-1.7.0-dev",
+        "doc": "/nix/store/4g24a8a0niaap17ap16fms2g9g6235ia-libxkbcommon-1.7.0-doc",
+        "out": "/nix/store/qjja9ni2iwha1ymylm9qvj2r35hjpgix-libxkbcommon-1.7.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxkbcommon",
+      "broken": false,
+      "derivation": "/nix/store/657p729dm403vvlkz8bgpfp0s4pimiw1-libxkbcommon-1.7.0.drv",
+      "description": "Library to handle keyboard descriptions",
+      "install_id": "libxkbcommon",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "libxkbcommon-1.7.0",
+      "pname": "libxkbcommon",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.7.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/hysfim3nfixdgwsazsfw9qk2ym75bxvg-libxkbcommon-1.7.0-dev",
+        "doc": "/nix/store/yjrnifjlbyqrdxax985xm9r030yl5k11-libxkbcommon-1.7.0-doc",
+        "out": "/nix/store/4iyki6wsawj3qyisw3yqqam6x7w50had-libxkbcommon-1.7.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-extension-layer",
+      "broken": false,
+      "derivation": "/nix/store/2p84kalrwny7r0fx8r256sxrvl293d8l-vulkan-extension-layer-1.3.290.0.drv",
+      "description": "Layers providing Vulkan features when native support is unavailable",
+      "install_id": "vulkan-extension-layer",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-extension-layer-1.3.290.0",
+      "pname": "vulkan-extension-layer",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9w42rpc15jwmkrfn3scq0x2cvvd7w5jx-vulkan-extension-layer-1.3.290.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-extension-layer",
+      "broken": false,
+      "derivation": "/nix/store/m2ikn1rm02jspzs3ikn3jh2gra30w1p9-vulkan-extension-layer-1.3.290.0.drv",
+      "description": "Layers providing Vulkan features when native support is unavailable",
+      "install_id": "vulkan-extension-layer",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-extension-layer-1.3.290.0",
+      "pname": "vulkan-extension-layer",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wvzrs2cip13d9kkhyirkxkd67rz1wibs-vulkan-extension-layer-1.3.290.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-headers",
+      "broken": false,
+      "derivation": "/nix/store/ly3d3icc8jxcs41q6mzhfdg1riikv8zf-vulkan-headers-1.3.290.0.drv",
+      "description": "Vulkan Header files and API registry",
+      "install_id": "vulkan-headers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-headers-1.3.290.0",
+      "pname": "vulkan-headers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/pgs2j3xidfq8n7laskgvgmhjh3qlydxd-vulkan-headers-1.3.290.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-headers",
+      "broken": false,
+      "derivation": "/nix/store/kqj04slimvdxg9sj7kk6f0chamlxjsin-vulkan-headers-1.3.290.0.drv",
+      "description": "Vulkan Header files and API registry",
+      "install_id": "vulkan-headers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-headers-1.3.290.0",
+      "pname": "vulkan-headers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3dxcrh0kv9b0manvypnsds6c04sjccgn-vulkan-headers-1.3.290.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-headers",
+      "broken": false,
+      "derivation": "/nix/store/wlpm98qi6pnynqqq6pb3jz814j82wfb9-vulkan-headers-1.3.290.0.drv",
+      "description": "Vulkan Header files and API registry",
+      "install_id": "vulkan-headers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-headers-1.3.290.0",
+      "pname": "vulkan-headers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mfrkpl4am9w0za4n5m8kdp5yjjdnc6wx-vulkan-headers-1.3.290.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-headers",
+      "broken": false,
+      "derivation": "/nix/store/lrxhfmhzrnf71wfj4wpdcc7sifxhdfzx-vulkan-headers-1.3.290.0.drv",
+      "description": "Vulkan Header files and API registry",
+      "install_id": "vulkan-headers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-headers-1.3.290.0",
+      "pname": "vulkan-headers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vv45c18h0wzap78k6fn23dn033jv10yp-vulkan-headers-1.3.290.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-loader",
+      "broken": false,
+      "derivation": "/nix/store/vb9ajy38vffs6akj0afvcqqzik78qayl-vulkan-loader-1.3.290.0.drv",
+      "description": "LunarG Vulkan loader",
+      "install_id": "vulkan-loader",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-loader-1.3.290.0",
+      "pname": "vulkan-loader",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/66r3qli51hbf1n50z0lf2d2cxs6k294s-vulkan-loader-1.3.290.0-dev",
+        "out": "/nix/store/4vicgrkim7ic4ms9am38naz0p85v1d5n-vulkan-loader-1.3.290.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-loader",
+      "broken": false,
+      "derivation": "/nix/store/45sa8zhxi6vjds9xfj7dq4h7jb8b4ql3-vulkan-loader-1.3.290.0.drv",
+      "description": "LunarG Vulkan loader",
+      "install_id": "vulkan-loader",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-loader-1.3.290.0",
+      "pname": "vulkan-loader",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/yv4zja4cpsvhmhn0xfkczr0nkd67arh4-vulkan-loader-1.3.290.0-dev",
+        "out": "/nix/store/yw8l9d1njjvxx399n8kb5gqpqm3vqx0x-vulkan-loader-1.3.290.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-loader",
+      "broken": false,
+      "derivation": "/nix/store/f4293cch58vzy52gwv3iwi5yjmr4m1z1-vulkan-loader-1.3.290.0.drv",
+      "description": "LunarG Vulkan loader",
+      "install_id": "vulkan-loader",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-loader-1.3.290.0",
+      "pname": "vulkan-loader",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/hh0idr9s09blr4yf6yqmyyd5yak7zzbm-vulkan-loader-1.3.290.0-dev",
+        "out": "/nix/store/qqxvb679pyandkdlwx4gr1wxlv2jbh4m-vulkan-loader-1.3.290.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-loader",
+      "broken": false,
+      "derivation": "/nix/store/841ra8pw94zdlgs9smhx3fyb93h24afn-vulkan-loader-1.3.290.0.drv",
+      "description": "LunarG Vulkan loader",
+      "install_id": "vulkan-loader",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-loader-1.3.290.0",
+      "pname": "vulkan-loader",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/nzj67znkpkfnqm58nh87d4jbq6ykdrik-vulkan-loader-1.3.290.0-dev",
+        "out": "/nix/store/9xrls1mp0qpz6mbdfzx98nhqkkm5ygz8-vulkan-loader-1.3.290.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-tools",
+      "broken": false,
+      "derivation": "/nix/store/6g5ka259x2l3pxcccl60vxx18y1c9hma-vulkan-tools-1.3.290.0.drv",
+      "description": "Khronos official Vulkan Tools and Utilities",
+      "install_id": "vulkan-tools",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-tools-1.3.290.0",
+      "pname": "vulkan-tools",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cc9dyvz3411rz08hvy1i8rrdwwav7vgx-vulkan-tools-1.3.290.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-tools",
+      "broken": false,
+      "derivation": "/nix/store/pnxbzaig1440p72jrjp4dmar93570zsh-vulkan-tools-1.3.290.0.drv",
+      "description": "Khronos official Vulkan Tools and Utilities",
+      "install_id": "vulkan-tools",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-tools-1.3.290.0",
+      "pname": "vulkan-tools",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zyjy2c6qhl0y4j1j2cq5dy080x5k28hh-vulkan-tools-1.3.290.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-tools",
+      "broken": false,
+      "derivation": "/nix/store/x6wym1nkcqv9y2fj0kndpggcsd6kkqpi-vulkan-tools-1.3.290.0.drv",
+      "description": "Khronos official Vulkan Tools and Utilities",
+      "install_id": "vulkan-tools",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-tools-1.3.290.0",
+      "pname": "vulkan-tools",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ifjw6x2rdrmr8s2hc5i3x2vpn4nng1rs-vulkan-tools-1.3.290.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-tools",
+      "broken": false,
+      "derivation": "/nix/store/l6z1qjnpmy20m24j0l0z9q6z09jnyszx-vulkan-tools-1.3.290.0.drv",
+      "description": "Khronos official Vulkan Tools and Utilities",
+      "install_id": "vulkan-tools",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-tools-1.3.290.0",
+      "pname": "vulkan-tools",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/q7iqx7r3fjmx95aid1s65q7pahszx975-vulkan-tools-1.3.290.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-validation-layers",
+      "broken": false,
+      "derivation": "/nix/store/7jcs7szib06q9krkq2gm9rgs4gy4bgj0-vulkan-validation-layers-1.3.290.0.drv",
+      "description": "Official Khronos Vulkan validation layers",
+      "install_id": "vulkan-validation-layers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-validation-layers-1.3.290.0",
+      "pname": "vulkan-validation-layers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/275an8rx1213cp4m2qc76a013540j3wx-vulkan-validation-layers-1.3.290.0-debug",
+        "out": "/nix/store/g5llmmvglxb9rmikg9nb42lwdv66wnb6-vulkan-validation-layers-1.3.290.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vulkan-validation-layers",
+      "broken": false,
+      "derivation": "/nix/store/2iznhvm4jzy22wnap65skr5grqr542i6-vulkan-validation-layers-1.3.290.0.drv",
+      "description": "Official Khronos Vulkan validation layers",
+      "install_id": "vulkan-validation-layers",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "vulkan-validation-layers-1.3.290.0",
+      "pname": "vulkan-validation-layers",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.290.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/m0j1747lp42ly6r0wwyrcvpjj6d2lg4p-vulkan-validation-layers-1.3.290.0-debug",
+        "out": "/nix/store/fsxg0ck7hqpqik34m7gi1rjcd6hs2mn4-vulkan-validation-layers-1.3.290.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "wayland",
+      "broken": false,
+      "derivation": "/nix/store/8qq0b6ln5vr25275z5lj459p3p2qy6fv-wayland-1.23.1.drv",
+      "description": "Core Wayland window system code and protocol",
+      "install_id": "wayland",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "wayland-1.23.1",
+      "pname": "wayland",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/b5vq9n2h3v3kzjxs8ag7yavfs6ab14wa-wayland-1.23.1-dev",
+        "doc": "/nix/store/39n8f4hssbldb9zj5plam64s4xjviwdn-wayland-1.23.1-doc",
+        "man": "/nix/store/67j2i275l7grvx4iswi1q0pfakgvcpvp-wayland-1.23.1-man",
+        "out": "/nix/store/wkapjcdpdypmkz8l4hwy6sgbsngdnihy-wayland-1.23.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "wayland",
+      "broken": false,
+      "derivation": "/nix/store/zap3npmlwaxc7w7nl66zdf5rxgbfib8k-wayland-1.23.1.drv",
+      "description": "Core Wayland window system code and protocol",
+      "install_id": "wayland",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "wayland-1.23.1",
+      "pname": "wayland",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/4sab8cjjn6m7f54hr0ay22g8ym2b810j-wayland-1.23.1-dev",
+        "doc": "/nix/store/1n7kvdqhkca7gnwq4y2yj5ff7hlf25cs-wayland-1.23.1-doc",
+        "man": "/nix/store/vb2lb8s0kr6d3w3ydnasmz0k1qbv255v-wayland-1.23.1-man",
+        "out": "/nix/store/rpbamn2cqci325vhkx1lh55fpr7jlm19-wayland-1.23.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "wayland",
+      "broken": false,
+      "derivation": "/nix/store/bx51njhn0lqv85adqdlc9bapcd93sv9v-wayland-1.23.1.drv",
+      "description": "Core Wayland window system code and protocol",
+      "install_id": "wayland",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "wayland-1.23.1",
+      "pname": "wayland",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "debug": "/nix/store/5wq9bpswzr4rgvw8ij3vw4z4vzin7jkx-wayland-1.23.1-debug",
+        "dev": "/nix/store/zp0ka26xiqrz5pd7rn9vvj0f8fjsqa0g-wayland-1.23.1-dev",
+        "doc": "/nix/store/8x34i68ra2gn6696rbbia9s01bqxjn9b-wayland-1.23.1-doc",
+        "man": "/nix/store/lgx9gr2cszxc9qx3d1m0hqg824cj8p3h-wayland-1.23.1-man",
+        "out": "/nix/store/f22xkcid2p6ghrs3858cxplh54pgn1ma-wayland-1.23.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "wayland",
+      "broken": false,
+      "derivation": "/nix/store/nsllz5h4lk5mx0j80972mndiy4nwfww5-wayland-1.23.1.drv",
+      "description": "Core Wayland window system code and protocol",
+      "install_id": "wayland",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "name": "wayland-1.23.1",
+      "pname": "wayland",
+      "rev": "1925c603f17fc89f4c8f6bf6f631a802ad85d784",
+      "rev_count": 685764,
+      "rev_date": "2024-09-26T11:04:55Z",
+      "scrape_date": "2024-09-28T03:18:30Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "debug": "/nix/store/vmpm1ndy0l3w8bb87n2cyflwanwiirjz-wayland-1.23.1-debug",
+        "dev": "/nix/store/vnkj4a52dss86fm7fgqp97d9180dswxv-wayland-1.23.1-dev",
+        "doc": "/nix/store/863kqvmkl2na750qcj21kbqrp2k5ah73-wayland-1.23.1-doc",
+        "man": "/nix/store/ip01046xjq954mll42q21mk8mpjjmp6d-wayland-1.23.1-man",
+        "out": "/nix/store/cdnwvy5zyh6la8x1cal00xmvsj8x3dai-wayland-1.23.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
